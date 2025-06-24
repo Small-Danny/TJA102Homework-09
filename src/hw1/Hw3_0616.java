@@ -3,7 +3,7 @@ package hw1;
 import java.util.Scanner;
 import java.util.Random;
 
-public class hw3_0616 {
+public class Hw3_0616 {
 	public static void main(String[] args) {
 //		請設計一隻程式,使用者輸入三個數字後,輸出結果會為正三角形、等腰
 //		三角形、其它三角形或不是三角形,如圖示結果:
@@ -87,10 +87,8 @@ public class hw3_0616 {
 		for (int i = 0; i <= 5; i++) {
 			System.out.print(lotteryNumbers[i] + " ");
 		}
-
+		sc.close();	}
 		// 創造隨機的方法
-	}
-
 	public static void shuffleArray(int[] array) {
 		Random rand = new Random();
 		for (int i = array.length - 1; i > 0; i--) {
