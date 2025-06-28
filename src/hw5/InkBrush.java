@@ -14,7 +14,7 @@ public class InkBrush extends Pen {
 
 	@Override
 	public int getPrice() {
-		return (int) (price * 0.8);
+		return (int) (getPrice()* 0.9);
 		// TODO Auto-generated method stub
 	}
 	public static void main(String[] args) {

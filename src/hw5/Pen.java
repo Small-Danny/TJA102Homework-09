@@ -1,8 +1,8 @@
 package hw5;
 
 public abstract class Pen {
-	String brand;
-	int price ;
+	private String brand;
+	private int price ;
 	
 	public Pen() {};
 	public Pen(String brand,int price) {

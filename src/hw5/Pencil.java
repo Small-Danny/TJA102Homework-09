@@ -14,7 +14,7 @@ public class Pencil extends Pen {
 	}
 	@Override
 	public int getPrice() {
-		return (int) (price * 0.8);
+		return (int) (getPrice()* 0.8);
 	}
 	
 	public static void main(String[] args) {
